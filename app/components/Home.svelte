@@ -16,7 +16,7 @@
 
 <style>
     .info .fas {
-        color: #3A53FF;
+        color: #3A53DF;
     }
 
     .info {
