@@ -1,21 +1,13 @@
 <script lang="ts">
   import { navigate } from "svelte-native";
-  import Page from "./Page";
+  import PostImageText from "./PostImageText";
 
-  let message: string = "Blank Svelte Native App";
+  let message: string = " Svelte Native App";
 </script>
 
 <page>
   <actionBar title="Home" />
-  <stackLayout>
-    <button
-      on:tap={() => {
-        navigate({ page: Page });
-      }}
-      text="Hello"
-    />
-    <span text=" {message}" />
-  </stackLayout>
+  <PostImageText />
 </page>
 
 <style>
