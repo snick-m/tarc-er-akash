@@ -7,20 +7,15 @@
 
 <page>
   <actionBar title="Home" />
-  <stackedLayout>
-    <label class="info">
-      <formattedString>
-        <button
-          on:tap={() => {
-            navigate({ page: Page });
-          }}
-          class="fas"
-          text="&#xf135;"
-        />
-        <span text=" {message}" />
-      </formattedString>
-    </label>
-  </stackedLayout>
+  <stackLayout>
+    <button
+      on:tap={() => {
+        navigate({ page: Page });
+      }}
+      text="Hello"
+    />
+    <span text=" {message}" />
+  </stackLayout>
 </page>
 
 <style>

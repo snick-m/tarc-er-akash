@@ -1,3 +1,9 @@
+<script>
+
+</script>
+<style>
+    
+</style>
 <page>
     <actionBar title="Secret Page" />
     <flexboxLayout flexdirection="column">

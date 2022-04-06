@@ -13,7 +13,7 @@
       "~/*": ["app/*"],
       "@/*": ["app/*"]
     },
-    "typeRoots": ["types"],
+    "typeRoots": ["./types"],
     "types": ["node"],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -21,6 +21,6 @@
     "emitDecoratorMetadata": true,
     "skipLibCheck": true
   },
-  "include": ["app", "types"],
+  "include": ["app", "./types"],
   "exclude": ["node_modules", "platforms"]
 }
